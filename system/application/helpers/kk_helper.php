@@ -14,3 +14,12 @@ function kk_show_view( $view, $data=array() ) {
 	echo compress_html( $html );
 	//echo $html;
 }
+
+
+/**
+ *	获取静态文件~ 
+ */
+function static_url( $file ) {
+	$ci =& get_instance();
+	return $ci->config->item('static_url') . $file;
+}

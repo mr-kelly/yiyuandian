@@ -39,7 +39,7 @@
 |	$autoload['libraries'] = array('database', 'session', 'xmlrpc');
 */
 
-$autoload['libraries'] = array('database','session',);
+$autoload['libraries'] = array('tank_auth','database','session',);
 
 
 /*
@@ -108,7 +108,7 @@ $autoload['language'] = array();
 |
 */
 
-$autoload['model'] = array();
+$autoload['model'] = array('user_model', 'product_model','bid_model');
 
 
 
