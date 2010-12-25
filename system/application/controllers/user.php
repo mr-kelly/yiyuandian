@@ -9,6 +9,13 @@
 		 */
 		function index() {
 			
+			
+			$this->load->library('tank_auth');
+			
+			
+			
+			
+			
 			$data = array();
 			kk_show_view('user/index_view', $data);
 		}

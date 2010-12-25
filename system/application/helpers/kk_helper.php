@@ -23,3 +23,11 @@ function static_url( $file ) {
 	$ci =& get_instance();
 	return $ci->config->item('static_url') . $file;
 }
+
+function import_js() {
+
+}
+
+function import_css($file) {
+
+}
